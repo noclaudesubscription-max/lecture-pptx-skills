@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "Example Unit — Slide Spec Schema Reference",
+    "theme": { "slide_w_in": 10.0, "slide_h_in": 7.5 }
+  },
+  "slides": [
+    { "layout": "title", "title": "Unit N: Topic Name", "subtitle": "Course Name — Instructor", "notes": "Welcome, roadmap for the unit." },
+    { "layout": "section", "title": "1. Motivation & Context" },
+    { "layout": "content", "title": "Why does this topic matter?", "bullets": ["Real-world hook", "Where it fits in the course", "What you'll be able to do after this"], "notes": "Speaker talking points" },
+    { "layout": "two_column", "title": "Prerequisites vs New Concepts",
+      "left": {"heading": "You already know", "bullets": ["prereq 1", "prereq 2"]},
+      "right": {"heading": "New today", "bullets": ["new concept 1", "new concept 2"]} },
+    { "layout": "diagram", "title": "Process Flow", "diagram": {"direction": "LR", "nodes": ["Input", "Process", "Output"]}, "caption": "Fig: end-to-end flow" },
+    { "layout": "table", "title": "Comparison Table", "headers": ["Feature", "Option A", "Option B"], "rows": [["Speed", "Fast", "Slow"], ["Memory", "Low", "High"]], "insight": "Key takeaway sentence." },
+    { "layout": "code", "title": "Worked Example", "code": "int main() {\n    printf(\"Hello\\n\");\n    return 0;\n}", "annotation": "Every C program needs a main()." },
+    { "layout": "formula", "title": "Key Formula", "formula": "E = mc^2", "explanation": ["E = energy", "m = mass", "c = speed of light"] },
+    { "layout": "mistake", "title": "Common Student Mistake", "mistake": "Forgetting the semicolon after a statement.", "fix": ["Always terminate simple statements with ;", "The compiler error points near, not at, the missing token"] },
+    { "layout": "recap", "title": "Recap Questions", "questions": ["What problem does this solve?", "When would you NOT use this approach?"] }
+  ]
+}
